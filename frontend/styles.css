@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo a:link {
+    color: rgb(88, 222, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo a:visited {
+    color: rgb(88, 222, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo a:hover {
+    color: rgb(88, 222, 255);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.logo a:active {
+    color: rgb(88, 222, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.main {
+    background-image: url("./images/main/main_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #ffffff;
+}
+.text{
+    color: #000000;
+    font-size:25px;
+    font-weight: bold;
+    padding: 0 16px;
+}
+.navbar-brand{
+    margin-right: 0;
+    padding: 0 16px;
+}
+.navbar .navbar-nav .nav-link {
+    color: #FECC00;
+    font-size:25px;
+    font-weight: bold;
+    padding: 0 16px;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.navbar-custom{
+    background-color: #006AA7;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+.footer-custom{
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+footer a {
+    text-decoration: none;
+}
+.cell {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.scrollable-text {
+    max-height: 100px;
+    overflow: auto;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+ }
+
+@media only screen and (max-width: 990px){
+    .navbar-brand img {
+        width: 200px;
+        height: 100px;
+    }
+}
